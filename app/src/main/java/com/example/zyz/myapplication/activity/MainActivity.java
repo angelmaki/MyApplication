@@ -78,7 +78,7 @@ public class MainActivity extends BaseActivity {
             public void onClick(View v) {
                 if (et_user.getText().toString().trim().equals("")||et_password.getText().toString().trim().equals(""))
                 {
-                    showToast("用户名或密码不能为空");
+                    showToast("用户名或密码不能为空.");
                 }
                 else {
                     //拿着用户名和密码去服务器判断数据是否正确
