@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:weightSum="1"
+        android:id="@+id/fm_mine">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_alignParentTop="true"
+            android:layout_alignParentStart="true"
+            android:layout_weight="0.17"
+            android:layout_height="170dp">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/timg"
+                android:id="@+id/imageView2"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentStart="true" />
+
+
+            <TextView
+                android:text="查看并编辑个人资料"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/mine_txtUpdate"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:layout_below="@+id/mine_name"
+                android:layout_alignStart="@+id/mine_name"
+                android:layout_marginTop="12dp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/mine_name"
+                android:textStyle="normal|bold"
+                android:textColor="@color/white"
+                android:textSize="22sp"
+                android:layout_centerVertical="true"
+
+                android:layout_marginStart="12dp"
+                android:text="zyz" />
+
+            <ImageView
+                android:layout_width="75dp"
+                android:layout_height="75dp"
+                android:id="@+id/mine_imgPic"
+                android:layout_alignBottom="@+id/mine_txtUpdate"
+                android:layout_alignEnd="@+id/mine_btnMore"
+                android:background="@drawable/headimage"/>
+
+            <ImageButton
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:background="@drawable/gengduo"
+                android:id="@+id/mine_btnMore"
+                android:layout_marginEnd="19dp"
+
+                android:layout_alignParentTop="true"
+                android:layout_alignParentEnd="true"
+                android:layout_marginTop="9dp" />
+
+            <TextView
+                android:text="我的基本资料"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/textView47"
+                android:textSize="16sp"
+                android:textColor="@color/white"
+                android:textStyle="normal|bold"
+                android:layout_alignTop="@+id/mine_btnMore"
+                android:layout_alignStart="@+id/mine_name" />
+
+        </RelativeLayout>
+
+        <ListView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="0.17" />
+
+    </LinearLayout>
+
+</LinearLayout>

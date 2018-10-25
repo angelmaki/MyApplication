@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">约健联盟</string>
+    <string name="textword">约健</string>
+    <string name="editword1">用户名：</string>
+    <string name="editword2">密码：</string>
+    <string name="editword3">手机注册</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>

@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+    <color name="pink">#e8989a</color>
+    <color name="gray">#8a8a8a</color>
+    <color name="white">#faf6f6</color>
+    <color name="black">#000000</color>
+    <color name="qianfen">#f8c4c5</color>
+    <color name="green">#00FFFF</color>
+    <color name="hui"> #CDC5BF</color>
+
+</resources>
