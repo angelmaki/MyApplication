@@ -18,7 +18,7 @@ import retrofit2.converter.gson.GsonConverterFactory;
 public class Model  implements Iface {
     private Retrofit retrofit;
     private Service service;
-    private  static  final  String BASE_URL="http://172.20.141.218/yuejian/public/index.php/admin/api/";
+    private  static  final  String BASE_URL="http://119.29.120.74/yuejian/public/index.php/admin/api/";
 
     public  Model(){
         retrofit=new Retrofit
