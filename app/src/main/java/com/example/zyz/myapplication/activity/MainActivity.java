@@ -83,7 +83,7 @@ public class MainActivity extends BaseActivity {
                 else {
                     //拿着用户名和密码去服务器判断数据是否正确
                     model=new LoginModel();
-                    model.login(et_user.getText().toString(),et_password.getText().toString(),listener);
+                    model.login("user1","123",listener);
                     // Toast.makeText(LoginActivity.this,"登录成功",Toast.LENGTH_SHORT).show();
                     // saveUser();
                 }
